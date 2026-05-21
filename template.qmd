@@ -1,0 +1,20 @@
+---
+title: Untitled
+format:
+  trial-report-docx:
+    toc: true
+    number-sections: true
+    syntax-highlighting: github
+    colorlinks: true
+    toc-depth: 3
+author: nengjie he
+date: last-modified
+---
+
+## Introduction
+
+A custom Quarto extension that applies standardized Word (`.docx`) formatting and layouts for trial reports.
+
+## More Information
+
+You can learn more about controlling the appearance of Word output here: <https://quarto.org/docs/output-formats/ms-word.html>
