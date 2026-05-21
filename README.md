@@ -17,10 +17,35 @@ To install this format into a folder you are already working in (without overwri
 quarto add njh51/trial-report
 ```
 
+This will create a folder named _extensions in your project directory
 
 ## Using
 
+Once installed, you can use the custom format by specifying it in the YAML header of your Quarto document (.qmd).
+
+Change the format to trial-report-docx:
+
+```yaml
+---
+title: "Clinical Trial Results"
+author: "Your Name"
+format: trial-report-docx
+---
+```
+
+
 ## Format Options
+
+Format examples
+
+```yaml
+  trial-report-docx:
+    toc: true
+    number-sections: true
+    syntax-highlighting: github
+    colorlinks: true
+    toc-depth: 3
+```
 
 ## Example
 
